@@ -1,0 +1,63 @@
+* {
+	box-sizing: box-border;
+}
+
+.main-container{
+	
+	background: rgba(91, 163, 214, 1);
+}
+
+.col-container{
+	display: inline-block;
+	height: 600px;
+	border: none;
+	vertical-align: top;
+	width: 33%;
+
+}
+
+.left-col{
+	margin-left: 20px;
+	
+}
+
+.col-container h3{
+	display: block;
+	color: white;
+	font-size: 20px;
+}
+input{
+	border: 2px solid white;
+	background-color: rgba(91, 163, 214, 1);
+	width: 90%;
+	height: 25px;
+	outline: none;
+}
+
+input:hover{
+	border: solid rgba(92,164,154, 1);
+}
+
+.dropdown{
+	background-color: rgba(91, 163, 214, 1);
+	color: white;
+	width: 90%;
+	height: 20px;
+}
+
+#big-textbox{
+	width: 90%;
+	height: 150px;
+	outline: none;
+	border: 2px solid white;
+	text-align: top;
+}
+
+@media only screen and (max-width: 811px) {
+	.col-container{
+		display: block;
+		width: 70%;
+		margin: auto;
+	}
+	
+}
